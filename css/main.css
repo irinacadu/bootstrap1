@@ -1,0 +1,310 @@
+* {
+    font-family: 'Nunito', Verdana, sans-serif;
+}
+
+body.login {
+    background-color: #34889c;
+    background: linear-gradient(to right, #34889c, #4678c8);
+}
+
+
+.bg-login {
+    background-image: url('../img/login.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#main-page {
+    background-color: #f8f9fc;
+}
+.callout-primary {
+     border-left-width: 6px;
+     border-left-color: #428bca;
+}
+.callout-success {
+    border-left-width: 6px;
+    border-left-color: #1cc88a;
+}
+.callout-info {
+    border-left-width: 6px;
+    border-left-color: #36b9cc;
+
+}
+
+.main{
+    position:relative;
+}
+
+:root{
+
+    --primary:#0d6efd;
+    --light:#e5eaf5;
+    --white: rgb(255, 250, 250);
+
+}
+
+.body_principal{
+
+    overflow: hidden;
+   
+    
+}
+.bg-primary{
+display:flex;
+flex-direction: column;
+align-items: flex-start;
+padding-top: 1rem;
+background-color: var(--primary) !important;
+
+}
+
+
+#sidebar-container{       
+    min-height: 100vh;  
+}
+
+.row{
+    display: flex;    
+    padding-left:1rem;  
+}
+
+.datos{
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+
+.nav_icon{
+
+    color:var(--white);  
+    
+}
+
+.btn-search{
+
+    right: 5px;
+}
+
+.prod{
+    background-color: #0dcaf0;    
+}
+
+.prod h2{
+
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+h4{
+    color:var(--primary);
+    text-align: center;
+    font-size: small;
+    padding-left:1rem;
+    margin-top: 0.5rem;
+}
+
+
+.navbar-toggler {
+    width: 1rem;    
+    margin-right: 1rem;
+    border: none;
+    color: inherit;
+}
+
+.bg-primary i{
+
+    padding-right: 0.5rem;
+   
+}
+
+.bg-primary a{
+
+    text-decoration: none;
+   
+}
+
+.bi-envelope{
+    margin-right: 0.5rem;
+}
+
+.bg-primary span{
+
+    font-size: 0.9rem;
+}
+.bi-house{
+
+    color:var(--primary);
+}
+
+.bi-search{
+    color:var(--primary);
+}
+
+.dash{
+  margin-top: 1rem;
+    color:black;
+}
+
+.centro{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.resto h3{
+
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.xiaomi {
+    
+    display: flex;
+    align-self: center;
+    
+}
+
+
+.x1{
+
+    margin-top:1rem;
+    margin-right: 1rem;
+}
+
+.x2 {
+    margin-top:1rem;
+}
+
+
+.primero{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: var(--primary);
+    
+}
+.primero button{
+ 
+    font-size: 1rem;
+}
+
+.segundo button{
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.segundo{
+
+    background-color: var(--light);
+    color:var(--primary);
+}
+
+.new{
+
+    display: flex;
+    align-self: center;
+
+}
+
+.new1{
+
+    margin-top:1rem;
+    margin-right: 1rem;
+
+}
+
+.new2{
+
+    margin-top:1rem;
+    margin-right: 1rem;
+
+}
+
+.tempest{
+
+    display: flex;
+    align-self: center;
+
+}
+
+.tem1{
+
+    margin-top:1rem;
+    margin-right: 1rem;
+
+}
+
+.tem2{
+    margin-top:1rem;
+    margin-right: 1rem;
+
+}
+
+.log{
+
+    display: flex;
+    align-self: center;
+}
+
+.log1{
+    margin-top:1rem;
+    margin-right: 1rem;
+
+}
+
+.log2{
+
+    margin-top:1rem;
+    margin-right: 1rem;
+}
+
+.tev{
+
+    display: flex;
+    align-self: center;
+}
+
+.tev1{
+    margin-top:1rem;
+    margin-right: 1rem;
+
+}
+
+.tev2{
+
+    margin-top:1rem;
+    margin-right: 1rem;
+}
+
+.productos{
+    color:var(--primary);
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+
+}
+
+.prodVend{
+
+    display: flex;
+    flex-direction: column;    
+    flex-wrap: wrap;
+    
+}
+.datos button{
+    width: 15rem;
+}
+
+.menuSup{
+
+   display: flex;
+   flex-direction: column;
+}
+
+.menuSup i{
+    margin-left:1.3rem;
+}
